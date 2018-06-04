@@ -1,0 +1,84 @@
+/*----------------------MEDIA 1024 --------------------------------------*/
+@media (max-width: 1024px){
+/*--
+    .aboutpic{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+--*/
+    .col-md-6 {
+        text-align: center;
+
+    }
+
+}
+/*----------------------MEDIA 768 --------------------------------------*/
+@media (max-width: 768px){
+
+    .content {
+    padding: 40% 0 0;
+    }
+/*--
+    .col-md-6{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+--*/
+
+}
+/*--------------------------MEDIA 603 -------------------------------*/
+@media (max-width: 603px){
+/* --
+.col-md-6{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+ -- */
+#menu.navbar-default {
+    background-color: rgba(0, 0, 0, 0.79);
+    }
+#projectz li.pull-right, #projectz li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+label{
+    float: none !important
+}
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+}
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}
+}
+/*-------------------------------------MEDIA 360---------------------------------*/
+@media (max-width: 360px){
+.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+    .categories{
+        text-align: center;
+}
+   #clearfix{
+        text-align: center;
+    }
+/*--
+    .col-md-6{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+--*/
+}
